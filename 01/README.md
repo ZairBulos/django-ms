@@ -171,7 +171,7 @@ Una vez creada la vista, el paso siguiente consiste en asignarla a la dirección
     urlpatterns = [
         path('', views.index, name='index'),
     ]
-  ````
+    ````
 
 La parte más importante de este código es la tupla `urlpatterns`. Esta tupla es donde las vistas y las direcciones URL están conectadas o asignadas. Tal como se puede ver, hemos importado nuestro archivo **views.py** para poder usarlo en la línea `urlpatterns`.
 
@@ -190,5 +190,3 @@ Nuestro elemento `URLconf` recientemente creado está dentro de nuestra aplicaci
     path('', include('hello_world.urls')),
     ````
     Este código registra nuestro elemento `URLconf`.
-
-##
